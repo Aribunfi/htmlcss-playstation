@@ -6,23 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playstation</title>
 
-    <!-- Bootstrap -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-        crossorigin="anonymous"></script>
+    <!-- Foglio di stile -->
+    <link rel="stylesheet" href="style.css">
 
     <!-- Fontawsome icone -->
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Foglio di stile -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  
 </head>
 
 <header class="top-header">
@@ -30,7 +26,7 @@
 </header>
 <header class="bottom-header">
     <img src="img/play_logo.svg" alt="">
-    <i class="fa-solid fa-bars fa-3x"></i>
+    <i class="fa-solid fa-bars fa-2x"></i>
 </header>
 
 
@@ -38,33 +34,35 @@
     <div class="jumbotron">
         <img src="img/returnal-hero-banner-logo.png" alt="">
         <h1>Rompi il cerchio</h1>
-        <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+        <p class="lead">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
         <button type="button" class="btn btn-danger">Acquista ora</button>
     </div>
  
-    <div class="card-game">
-        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
-    </div>
+    <section class="game-list">
+        <div class="card-game">
+            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+        </div>
 
-    <div class="card-game">
-        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
-    </div>
+        <div class="card-game">
+            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+        </div>
 
-    <div class="card-game">
-        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
-    </div>
-    
-    <div class="card-game">
-        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
-    </div>
+        <div class="card-game">
+            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+        </div>
+        
+        <div class="card-game">
+            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+        </div>
 
-    <div class="card-game">
-        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
-    </div>
-    
-    <div class="card-game">
-        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
-    </div>
+        <div class="card-game">
+            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+        </div>
+        
+        <div class="card-game">
+            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+        </div>
+    </section>
 
     <section class="show-off">
         <h3>PLAY HAS NO LIMITS</h3>
@@ -75,7 +73,7 @@
     <section class="latest-release">
         <h1>Console Playstation 5</h1>
         <p>Sperimenta la nuova generazione di incredibili giochi Playstation</p>
-        <button>Maggiori informazioni</button>
+        <button class="btn btn-primary">Maggiori informazioni</button>
     </section>
 
     <div class="carousel-top">
@@ -97,6 +95,7 @@
         <div class="card-device">
             <img src="img/camera-thumb.jpg" alt="">
         </div>
+    </div>
 
         <div class="second-jumbotron">
             <img src="img/it-takes-two-logo.png" alt="">
@@ -168,28 +167,135 @@
             <p>Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
             
             <div class="card-explore-item">
+                <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
+                <h1>PlayStation 4</h1>
+                <p>Giochi incredibli live su PS4, con 1 TB di spazio di archiviazione</p>
+                <button class="btn btn-primary">Scopri di più</button>
+            </div>
+
+
+            <div class="card-explore-item">
                 <img src="img/double11-202010-tw-psvr.jpg" alt="">
                 <h1>PlayStation VR</h1>
-                <p>Giochi incredibli live su PS4, con 1 TB di spazio di archiviazione</p>
-                <button>Scopri di più</button>
+                <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
+                <button class="btn btn-primary">Scopri di più</button>
             </div>
 
             <div class="card-explore-item">
                 <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
                 <h1>PlayStation 4</h1>
                 <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                <button>Scopri di più</button>
+                <button class="btn btn-primary">Scopri di più</button>
             </div>
 
             <div class="card-explore-item">
                 <img src="img/dualshock-4-listing-thumb.jpg" alt="">
                 <h1>Accessori</h1>
                 <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali</p>
-                <button>Scopri di più</button>
+                <button class="btn btn-primary">Scopri di più</button>
             </div>
-        
         </section>
 
-    </div>
+            <section class="plus">
+                <img src="img/ps-plus-logo.png" alt="">
+                <p>Migliora la tua esperienza Playstation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                <button class="btn btn-secondary" class="btn btn-outline-secondary">Esplora Playstation Plus</button>
+            </section>
+
+            <section class="discount">
+                <div class="discount-explanation">
+                    <h1>Nuovi sconti sul Playstation Store</h1>
+                    <p>Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4  PS VR, tutti in un unico posto.</p>
+                </div>
+
+                <div class="first-discount">
+                    <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                </div>
+
+                <div class="second-discount">
+                    <img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                </div>
+
+                <div class="free-games">
+                    <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
+                </div>
+            </section>
+
+            <section class="now">
+                <img src="img/ps-now-logo-two-column.png" alt="">
+                <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                <button>Esplora Playstation Now</button>
+            </section>
+
+            <section class="social">
+                <h1>Seguici sui social media</h1>
+                <img src="img/twitter.jpg" alt="">
+                <img src="img/facebook.jpg" alt="">
+                <img src="img/instagram.jpg" alt="">
+                <img src="img/youtube.png" alt="">
+            </section>
+  
 </body>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="img/ps-footer.svg" alt="">
+            <p>Country / Region: Italy</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+                <li>
+                    <a href="#">Link footer n</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="credits">
+            <img src="img/sie-logo.svg" alt="">
+            <p>Website 2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a href="#">Maggiori info</a></p>
+        </section>
+    </footer>
 </html>
